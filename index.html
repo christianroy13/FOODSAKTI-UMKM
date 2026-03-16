@@ -299,8 +299,8 @@ https://templatemo.com/tm-558-klassy-cafe
 
     <!-- ***** Reservation Us Area Starts ***** -->
     <section class="section" id="reservation">
-        < class="container">
-            < class="row">
+        <div class="container">
+            <div class="row"> 
                 <div class="col-lg-6 align-self-center">
                     <div class="left-text-content">
                         <div class="section-heading">
@@ -325,6 +325,81 @@ https://templatemo.com/tm-558-klassy-cafe
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="post">
+                          <div class="row">
+                            <div class="col-lg-12">
+                                <h4>Table Order</h4>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                              <fieldset>
+                              <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address" required="">
+                            </fieldset>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                              <fieldset>
+                                <input name="phone" type="text" id="phone" placeholder="Phone Number*" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <select value="number-guests" name="number-guests" id="number-guests">
+                                    <option value="number-guests">Number Of Guests</option>
+                                    <option name="1" id="1">1</option>
+                                    <option name="2" id="2">2</option>
+                                    <option name="3" id="3">3</option>
+                                    <option name="4" id="4">4</option>
+                                    <option name="5" id="5">5</option>
+                                    <option name="6" id="6">6</option>
+                                    <option name="7" id="7">7</option>
+                                    <option name="8" id="8">8</option>
+                                    <option name="9" id="9">9</option>
+                                    <option name="10" id="10">10</option>
+                                    <option name="11" id="11">11</option>
+                                    <option name="12" id="12">12</option>
+                                </select>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-6">
+                                <div id="filterDate2">    
+                                  <div class="input-group date" data-date-format="dd/mm/yyyy">
+                                    <input  name="date" id="date" type="text" class="form-control" placeholder="dd/mm/yyyy">
+                                    <div class="input-group-addon" >
+                                      <span class="glyphicon glyphicon-th"></span>
+                                    </div>
+                                  </div>
+                                </div>   
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <select value="time" name="time" id="time">
+                                    <option value="time">Flavour</option>
+                                    <option name="Breakfast" id="Breakfast">Spicy</option>
+                                    <option name="Lunch" id="Lunch">Original</option>
+                                    <option name="Dinner" id="Dinner">Black Pepper</option>
+                                </select>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button-icon">Make A Order</button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
                 </div>          
                     </div>
                 </div>
@@ -340,7 +415,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
                         <h6>Food Sakti</h6>
-                        <h2>Examples of dishes that can be cooked using Food Sakti seasoning.</h2>
+                        <h2>Unlock Culinary Power!</h2>
                     </div>
                 </div>
             </div>
@@ -352,9 +427,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                 <div class="row">
                                     <div class="col-lg-6 offset-lg-3">
                                         <ul>
-                                          <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png" alt="">Breakfast</a></li>
-                                          <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png" alt="">Lunch</a></a></li>
-                                          <li><a href='#tabs-3'><img src="assets/images/tab-icon-03.png" alt="">Dinner</a></a></li>
+                                          <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png" alt="">example of cooking</a></li>
+                                          
                                         </ul>
                                     </div>
                                 </div>
@@ -371,7 +445,7 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/1.png" alt="">
                                                             <h4>Fried Chicken</h4>
-                                                            <p>Seasoned chicken fried until crispy and savory.</p>
+                                                            <p>Crispy fried chicken seasoned with savory spices.</p>
                                                             <div class="price">
                                                                 <h6>01</h6>
                                                             </div>
@@ -381,7 +455,7 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/2.png" alt="">
                                                             <h4>Grilled Chicken</h4>
-                                                            <p>Chicken grilled with spices until aromatic and flavorful.</p>
+                                                            <p>Juicy chicken grilled with aromatic spices.</p>
                                                             <div class="price">
                                                                 <h6>02</h6>
                                                             </div>
@@ -390,8 +464,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/3.png" alt="">
-                                                            <h4>Ayam Pop</h4>
-                                                            <p>A Minang-style chicken dish, boiled then lightly fried, tender and savory.</p>
+                                                            <h4>Chicken Pop</h4>
+                                                            <p>A traditional Minang chicken dish, tender and lightly fried.</p>
                                                             <div class="price">
                                                                 <h6>03</h6>
                                                             </div>
@@ -403,23 +477,11 @@ https://templatemo.com/tm-558-klassy-cafe
                                         <div class="col-lg-6">
                                             <div class="row">
                                                 <div class="right-list">
-                                                    
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>  
-                                <article id='tabs-2'>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="left-list">
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/4.png" alt="">
                                                             <h4>Fried Fish</h4>
-                                                            <p>Seasoned fish fried until crispy and delicious.</p>
+                                                            <p>Crispy fried fish with simple seasoning.</p>
                                                             <div class="price">
                                                                 <h6>04</h6>
                                                             </div>
@@ -429,7 +491,7 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/5.png" alt="">
                                                             <h4>Grilled Fish</h4>
-                                                            <p>Fish grilled with spices, giving it a smoky and tasty flavor.</p>
+                                                            <p>Fresh fish grilled with flavorful spices.</p>
                                                             <div class="price">
                                                                 <h6>05</h6>
                                                             </div>
@@ -439,7 +501,7 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/6.png" alt="">
                                                             <h4>Beef Steak</h4>
-                                                            <p>Grilled beef served tender and rich in flavor.</p>
+                                                            <p>Tender grilled beef with rich flavor.</p>
                                                             <div class="price">
                                                                 <h6>06</h6>
                                                             </div>
@@ -448,62 +510,10 @@ https://templatemo.com/tm-558-klassy-cafe
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="right-list">
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </article>  
-                                <article id='tabs-3'>
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="left-list">
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/7.png" alt="">
-                                                            <h4>Fried Rice</h4>
-                                                            <p>Rice stir-fried with spices, often mixed with egg or meat.</p>
-                                                            <div class="price">
-                                                                <h6>07</h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/8.png" alt="">
-                                                            <h4>Semur</h4>
-                                                            <p>Meat cooked in a sweet soy sauce-based gravy.</p>
-                                                            <div class="price">
-                                                                <h6>08</h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="tab-item">
-                                                            <img src="assets/images/9.png" alt="">
-                                                            <h4>Meatballs (Bakso)</h4>
-                                                            <p>Beef meatballs served in a warm savory broth.</p>
-                                                            <div class="price">
-                                                                <h6>09</h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="row">
-                                                <div class="right-list">
-                                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>   
+                                
+                                   
                             </section>
                         </div>
                     </div>
